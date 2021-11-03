@@ -1,0 +1,94 @@
+.top_bar{
+  display: flex;
+  position: fixed;
+  background-color: rgba(240, 226, 226, 0.911);
+  justify-content: space-between;
+  width: 100%;
+}
+h1{
+  font-weight: bolder;
+}
+.company_name{
+  display: inline-flex;
+  align-items: center;
+}
+.company_name img{
+  width: 26px;
+}
+.main_menu{
+  display: flex;
+}
+.main_menu a{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
+  text-decoration: none;
+}
+.main_menu .line{
+  width: 100%;
+  height: 4px;
+  background-color: #f00;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.main_menu a:hover .line{
+  transform: scaleX(1);
+}
+.banner img{
+  width: 1200px;
+  padding: 50px;
+}
+.intro{
+  text-align: center;
+}
+h2{
+  font-size: 26px;
+  font-weight: bolder;
+}
+h3{
+  font-weight: bolder;
+  padding: 20px;
+}
+h4{
+  padding: 30px;
+}
+.intro_cards{
+  display: flex;
+}
+.intro_cards img{
+  width: 33%;
+}
+p{
+  line-height: normal;
+}
+.tutors_intro{
+  /* align-items: center; */
+}
+.tutors_team{
+  padding-top: 100px; 
+}
+.tutor_cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.tutor_card img{
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  object-fit: cover;
+}
+.course{
+  border-style: solid;
+  border-color: #f00;
+  border-width: 0.5px;
+  display: inline-block;
+  padding: 2px;
+  color: #f00;
+}
+.more_btn{
+  background-color: #f00;
+  border: 20px 30px;
+  display: inline-block;
+}
